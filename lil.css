@@ -1,0 +1,17 @@
+.image{
+	height: 420px; 
+	width:420px;
+}
+.image img{
+-moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+-webkit-transition: all 1s ease-out;
+}
+
+.image img:hover{
+-webkit-transform: scale(1.2);
+-moz-transition: scale(1.2);
+-o-transform: scale(1.2);
+border-style: solid;
+border-color: white;
+}

@@ -1,0 +1,41 @@
+.image{
+  height: 420px; 
+  width:420px;
+}
+.image img{
+-moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+-webkit-transition: all 1s ease-out;
+}
+
+.image img:hover{
+-webkit-transform: scale(1.2);
+-moz-transition: scale(1.2);
+-o-transform: scale(1.2);
+border-style: solid;
+border-color: white;
+}
+
+
+
+
+
+.polaroid {
+ position: relative;
+ width: 1700px;
+}
+ 
+.polaroid img {
+ border: 10px solid #fff;
+ border-bottom: 45px solid #fff;
+ -webkit-box-shadow: 3px 3px 3px #777;
+ -moz-box-shadow: 3px 3px 3px #777;
+ box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid p {
+ position: absolute;
+ text-align: center;
+ width: 100%;
+ bottom: 0px;
+}
